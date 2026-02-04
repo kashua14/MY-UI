@@ -1,0 +1,36 @@
+:root {
+  --brand-500: #16a3a3;
+  --brand-600: #108b95;
+  --brand-700: #0f6f8c;
+  --brand-800: #0b4f73;
+
+  --ink-900: #102533;
+  --ink-700: #284d63;
+  --ink-600: #4a6a7e;
+
+  font-family: 'Avenir Next', 'Trebuchet MS', 'Gill Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(95, 178, 233, 0.24), transparent 36%),
+    radial-gradient(circle at 86% 82%, rgba(15, 171, 148, 0.26), transparent 40%),
+    linear-gradient(140deg, #f8fcff 0%, #eef7fc 40%, #f9fbff 100%);
+  color: var(--ink-900);
+}
+
+#root {
+  min-height: 100vh;
+}
